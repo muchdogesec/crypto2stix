@@ -32,13 +32,23 @@ pip3 install -r requirements.txt
 Starting with a transaction hash;
 
 ```shell
-python3 crypto2stix.py --transaction ID
+python3 crypto2stix.py --transaction HASH
 ```
 
 Starting with a wallet hash;
 
 ```shell
-python3 crypto2stix.py --wallet ID
+python3 crypto2stix.py --wallet HASH
+```
+
+### Example runs using Wannacry data
+
+```shell
+python3 crypto2stix.py --transaction 3a5395bc3e8584786ad0598db33adda0b991814fd035089d69d7e2bda3272893
+```
+
+```shell
+python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
 ```
 
 ## Blockchain data
@@ -227,7 +237,7 @@ Now we can model the actual transaction using these objects.
 {
     "type": "cryptocurrency-transaction",
     "spec_version": "2.1",
-    "id": "cryptocurrency-transaction--",
+    "id": "cryptocurrency-transaction--1e832ccc-78e2-5be5-b004-18ed031b6efe",
     "symbol": "BTC",
     "hash": "d63a3757a2a7b4c58e49f5a2e4236b1d4cbc2e4ffc9aa04c636707cb0bbbee7b",
     "block_id": "466967",
@@ -273,7 +283,408 @@ GET https://blockchain.info/rawaddr/$bitcoin_address
 GET https://blockchain.info/rawaddr/115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
 ```
 
+```json
+{
+  "hash160": "00e8fd98ca34f195b020af4a8b1c7238663d4212",
+  "address": "115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn",
+  "n_tx": 124,
+  "n_unredeemed": 10,
+  "total_received": 1487769994,
+  "total_sent": 1441067602,
+  "final_balance": 46702392,
+  "txs": [
+    {
+      "hash": "14449446275da0bf11825d14733fcc28f7264f8a2c3a506752f92fddb8e1aa16",
+      "ver": 1,
+      "vin_sz": 1,
+      "vout_sz": 22,
+      "size": 880,
+      "weight": 3520,
+      "fee": 113880,
+      "relayed_by": "0.0.0.0",
+      "lock_time": 0,
+      "tx_index": 797541991687679,
+      "double_spend": false,
+      "time": 1605337703,
+      "block_index": 656858,
+      "block_height": 656858,
+      "inputs": [
+        {
+          "sequence": 4294967295,
+          "witness": "",
+          "script": "483045022100d2493ce331c957bc0b60cff36cebdc201cca7c70feaca5622a034a6377f63b5f02202976125322d2126737f4a3e8e2cf21efa2dd4e97a468c0b4292f3bd87fa10784012102ee5dc5bd7d0b31b6ff5012fc2f89d3795bec0eac2913ef3cdb72b3b6cfd332b7",
+          "index": 0,
+          "prev_out": {
+            "type": 0,
+            "spent": true,
+            "value": 28527876087,
+            "spending_outpoints": [
+              {
+                "tx_index": 797541991687679,
+                "n": 0
+              }
+            ],
+            "n": 5,
+            "tx_index": 8651191654556922,
+            "script": "76a914dba6d09a4cc20d8eb1c482c2e56b8d600fb9f58b88ac",
+            "addr": "1M2QpWb7xspmtYHgVmGgrewWPBF7SjPCJb"
+          }
+        }
+      ],
+      "out": [
+        {
+          "type": 0,
+          "spent": true,
+          "value": 372891955,
+          "spending_outpoints": [
+            {
+              "tx_index": 7076151901137692,
+              "n": 1
+            }
+          ],
+          "n": 0,
+          "tx_index": 797541991687679,
+          "script": "a91465fdc09b1cf60a82cbc9e059839fcc04ebf7f18487",
+          "addr": "3AzJ9wbhhDsfCvWGU74uWFSQ2E8hWaTq5C"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 2767591,
+          "spending_outpoints": [
+            {
+              "tx_index": 8005882464485736,
+              "n": 17
+            }
+          ],
+          "n": 1,
+          "tx_index": 797541991687679,
+          "script": "76a9144964d8fc9049f1953a125e1e387987b26fa7c99a88ac",
+          "addr": "17h5923U88esSwtmJa4v1EgVW9vi1dJX1q"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 8432592,
+          "spending_outpoints": [
+            {
+              "tx_index": 1624767403743273,
+              "n": 20
+            }
+          ],
+          "n": 2,
+          "tx_index": 797541991687679,
+          "script": "76a9142a512d273bb2d7ed97d86958a694b4838dff2f3888ac",
+          "addr": "14rkdHrh1E3L34v9vTevoJ5hGfLmM2eLTX"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 9409489,
+          "spending_outpoints": [
+            {
+              "tx_index": 1369064840368594,
+              "n": 8
+            }
+          ],
+          "n": 3,
+          "tx_index": 797541991687679,
+          "script": "76a9142a512d273bb2d7ed97d86958a694b4838dff2f3888ac",
+          "addr": "14rkdHrh1E3L34v9vTevoJ5hGfLmM2eLTX"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 3660000,
+          "spending_outpoints": [
+            {
+              "tx_index": 2573651081540839,
+              "n": 18
+            }
+          ],
+          "n": 4,
+          "tx_index": 797541991687679,
+          "script": "a91461b2c86be4d3a90e703f39e49e8027f796388e7587",
+          "addr": "3AbbeCpuxNk1Ceq16tM1Np6fUXJjAqdFMk"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 11925214,
+          "spending_outpoints": [
+            {
+              "tx_index": 504512970446827,
+              "n": 5
+            }
+          ],
+          "n": 5,
+          "tx_index": 797541991687679,
+          "script": "a9144ad58e8e463e57758d03f0e1254e7e235015ef4d87",
+          "addr": "38WhkvtJUeMtoqAb7SJKtjWYGf8YvT4hLC"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 17301260,
+          "spending_outpoints": [
+            {
+              "tx_index": 2821858673363502,
+              "n": 46
+            }
+          ],
+          "n": 6,
+          "tx_index": 797541991687679,
+          "script": "a9145657264a8e100788dbcb0946c0d2a0256024cab087",
+          "addr": "39ZYSJLoCAKCDyavynjzXG7VSTeqmh3AXW"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 240937162,
+          "spending_outpoints": [
+            {
+              "tx_index": 778137703303881,
+              "n": 2
+            }
+          ],
+          "n": 7,
+          "tx_index": 797541991687679,
+          "script": "a914c3597834267dc19cc477e023730eae6771a8e34f87",
+          "addr": "3KVvsQNKaTvTE7gGuWpVZfVEPYt5Kn5QvK"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 154285425,
+          "spending_outpoints": [
+            {
+              "tx_index": 959021266784189,
+              "n": 19
+            }
+          ],
+          "n": 8,
+          "tx_index": 797541991687679,
+          "script": "a91408e8f6a46f317646861d87f846e957ffcd7710ac87",
+          "addr": "32W8QfNgcK32hBRTm6QAgQP7A7j9817JZY"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 259666,
+          "spending_outpoints": [
+            {
+              "tx_index": 8849451891187253,
+              "n": 2
+            }
+          ],
+          "n": 9,
+          "tx_index": 797541991687679,
+          "script": "a91463a7dddfde93cfcba03a26e3a601a623bbcb5ad887",
+          "addr": "3Amwv7mjzuUyRarogoB6epED9NNobbj3VT"
+        },
+        {
+          "type": 0,
+          "spent": false,
+          "value": 3720000,
+          "spending_outpoints": [],
+          "n": 10,
+          "tx_index": 797541991687679,
+          "script": "76a91400e8fd98ca34f195b020af4a8b1c7238663d421288ac",
+          "addr": "115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 1842500,
+          "spending_outpoints": [
+            {
+              "tx_index": 8892224564038889,
+              "n": 8
+            }
+          ],
+          "n": 11,
+          "tx_index": 797541991687679,
+          "script": "a9147a1fceff4f6d5a6a5b761668b1a7f7d2fb3569e087",
+          "addr": "3CpkU3dabLuXeoof1o4ZhiJ4bzCTSu631s"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 89827000,
+          "spending_outpoints": [
+            {
+              "tx_index": 7283568728571289,
+              "n": 0
+            }
+          ],
+          "n": 12,
+          "tx_index": 797541991687679,
+          "script": "76a914ca85e0b001b949837563b49d4a153286ef08b31888ac",
+          "addr": "1KTqsjbarRhcYgmPMrVLPeKBvqk4vXSY9U"
+        },
+        {
+          "type": 0,
+          "spent": false,
+          "value": 24950000,
+          "spending_outpoints": [],
+          "n": 13,
+          "tx_index": 797541991687679,
+          "script": "76a914e7856d810f7fe2b0f2c0d7ea806786a1cbda6bff88ac",
+          "addr": "1N7Aw34J8ih6LSTMWHHSpEdKyFwYgSQZRF"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 850000,
+          "spending_outpoints": [
+            {
+              "tx_index": 61226390326379,
+              "n": 0
+            }
+          ],
+          "n": 14,
+          "tx_index": 797541991687679,
+          "script": "a914c513776ea505b4b90670469315ecc97da63ed4fd87",
+          "addr": "3Kf4MtjKCna38MzDousEEo83KeMLfkjjDE"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 4000000,
+          "spending_outpoints": [
+            {
+              "tx_index": 8575415627799691,
+              "n": 0
+            }
+          ],
+          "n": 15,
+          "tx_index": 797541991687679,
+          "script": "a9142eff3785c47ea7595261bfe0cccb4da1e75f1dc987",
+          "addr": "35yWk9Y6WSE8jXyFuFYiFW6idndxDnid32"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 320300,
+          "spending_outpoints": [
+            {
+              "tx_index": 948844641953240,
+              "n": 307
+            }
+          ],
+          "n": 16,
+          "tx_index": 797541991687679,
+          "script": "76a914897d50274eb9f41bc600541ab87223d96013c7c588ac",
+          "addr": "1DXyhBt2g7gBx6xvmqkBTyuxwg8BpJgF9e"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 3660000,
+          "spending_outpoints": [
+            {
+              "tx_index": 5787612263125314,
+              "n": 45
+            }
+          ],
+          "n": 17,
+          "tx_index": 797541991687679,
+          "script": "a9140125222e5f86b1928a02443c855059a071838c3387",
+          "addr": "31o55pPJnveAzEesUeGzZorfoiXnVkqVPo"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 7726400,
+          "spending_outpoints": [
+            {
+              "tx_index": 6118670735117055,
+              "n": 0
+            }
+          ],
+          "n": 18,
+          "tx_index": 797541991687679,
+          "script": "76a914d897d4101b9aca38b6e9503a89c6464689a5316c88ac",
+          "addr": "1LkEqf29URRxRRZ6xFveASFZFqVn1BtHMc"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 4650000,
+          "spending_outpoints": [
+            {
+              "tx_index": 5345936843175744,
+              "n": 12
+            }
+          ],
+          "n": 19,
+          "tx_index": 797541991687679,
+          "script": "a9143c550f8cd26ee14c3a0f46b6024f8d498be9467687",
+          "addr": "37C2NBFdq4XfQE3745fvy1NW23SPxQuFdQ"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 3660000,
+          "spending_outpoints": [
+            {
+              "tx_index": 6062110509517792,
+              "n": 3
+            }
+          ],
+          "n": 20,
+          "tx_index": 797541991687679,
+          "script": "a9149cf1174ef27fa52111b6300d3311b423851db17587",
+          "addr": "3Fzr9mZD1SM6wSt7jAFSjurNnMDFv8JuQF"
+        },
+        {
+          "type": 0,
+          "spent": true,
+          "value": 27560685653,
+          "spending_outpoints": [
+            {
+              "tx_index": 8135202909713236,
+              "n": 0
+            }
+          ],
+          "n": 21,
+          "tx_index": 797541991687679,
+          "script": "76a91473d45406e77a4a90edd3b103597bcfbafe211ef388ac",
+          "addr": "1BZT4tJif1mdEBzoDALqJxguy2e3Mr8xzn"
+        }
+      ],
+      "result": 3720000,
+      "balance": 46702392
+    },
+```
 
+_(response cut for brevity)._
+
+This time the conversion is done in the same way as when starting with a transaction hash, the script simply uses the data inside the `txs` object.
+
+The important logical difference here is that the same wallet ID could appear multiple times (as same wallet seen across multiple transactions).
+
+## STIX2 Conversion
+
+This script creates the STIX objects using the [stix2 Python Lib](https://stix2.readthedocs.io/en/latest/).
+
+It utilises the filesystem store, which saves the output objects into a directory called `stix2_objects`. On each script run this directory is deleted and then recreated with new objects.
+
+All the generated objects are placed into a STIX bundle in the `stix2_objects` directory.
+
+```json
+{
+    "type": "bundle",
+    "id": "bundle--<UUIDV5>",
+    "objects": [
+        "ALL STIX OBJECTS CREATED"
+    ]
+}
+```
+
+The UUID is generated using the namespace `63340903-e6fa-46e4-a5e7-25c1523ca345` and the md5 hash of all objects sorted in the bundle.
+
+The bundle file is also names in the format `bundle--<UUIDV5>.json`.
 
 ## Useful supporting tools
 
