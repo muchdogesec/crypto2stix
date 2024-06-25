@@ -38,13 +38,21 @@ python3 crypto2stix.py --transaction HASH
 Starting with a wallet hash;
 
 ```shell
-python3 crypto2stix.py --wallet HASH
+python3 crypto2stix.py --wallet HASH --transactions_only
 ```
+
+Passing the `--transactions_only` flag will generate the wallet for the wallet HASH passed in the CLI, and all transactions related to it.
+
+Omitting the `--transactions_only` will also generate wallet objects for every single wallet mentioned in the transactions the wallet HASH passed in the CLI is linked to.
 
 ### Example runs using Wannacry data
 
 ```shell
 python3 crypto2stix.py --transaction 3a5395bc3e8584786ad0598db33adda0b991814fd035089d69d7e2bda3272893
+```
+
+```shell
+python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --transactions_only
 ```
 
 ```shell
