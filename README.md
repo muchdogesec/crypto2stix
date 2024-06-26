@@ -1,6 +1,6 @@
 # crypto2stix
 
-A command line tool that takes a crypto transactions or wallets and turns them into STIX objects. Currently only support Bitcoin.
+A command line tool that takes crypto transactions and wallets, and turns them into STIX objects. Currently only supports Bitcoin.
 
 ## Overview
 
@@ -45,6 +45,13 @@ Passing the `--transactions_only` flag will generate the wallet for the wallet H
 
 Omitting the `--transactions_only` will also generate wallet objects for every single wallet mentioned in the transactions the wallet HASH passed in the CLI is linked to.
 
+```shell
+python3 crypto2stix.py --wallet HASH --wallet_only
+```
+
+Passing the `--wallet_only` flag will only generate the wallet object for the wallet HASH passed in the CLI.
+
+
 ### Example runs using Wannacry data
 
 ```shell
@@ -53,6 +60,10 @@ python3 crypto2stix.py --transaction 3a5395bc3e8584786ad0598db33adda0b991814fd03
 
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --transactions_only
+```
+
+```shell
+python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --wallet_only
 ```
 
 ```shell

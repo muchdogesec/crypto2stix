@@ -103,10 +103,16 @@ def main():
     parser.add_argument("--transaction", type=str, help="Transaction hash")
     parser.add_argument("--wallet", type=str, help="Wallet hash")
     parser.add_argument("--transactions_only", action="store_true", help="Generate only transactions for the wallet")
+    parser.add_argument("--wallet_only", action="store_true", help="Generate only the wallet object for the wallet")
     args = parser.parse_args()
 
-    if args.transaction and args.transactions_only:
-        raise ValueError("The --transactions_only flag is not allowed for transaction entries")
+    if args.transaction:
+        if args.transactions_only or args.wallet_only:
+            raise ValueError("The --transactions_only and --wallet_only flags are not allowed for transaction entries")
+
+    if args.wallet:
+        if args.transactions_only and args.wallet_only:
+            raise ValueError("Cannot use --transactions_only and --wallet_only together")
 
     clear_directory("stix2_objects")
 
@@ -136,26 +142,31 @@ def main():
         stix_objects.append(transaction_object)
     
     elif args.wallet:
-        wallet_data = get_wallet_data(args.wallet)
-        if args.wallet not in processed_wallets:
+        if args.wallet_only:
             wallet_object = create_wallet_object(args.wallet)
             fs_store.add(stix2.parse(wallet_object))
             stix_objects.append(wallet_object)
-            processed_wallets.add(args.wallet)
-        for tx in wallet_data["txs"]:
-            transaction_object = create_transaction_object(tx)
-            fs_store.add(stix2.parse(transaction_object))
-            stix_objects.append(transaction_object)
-            if not args.transactions_only:
-                wallets = set(inp["prev_out"]["addr"] for inp in tx["inputs"] if 'addr' in inp["prev_out"]) | set(out["addr"] for out in tx["out"] if 'addr' in out)
-                wallet_objects = []
-                for addr in wallets:
-                    if addr not in processed_wallets:
-                        wallet_object = create_wallet_object(addr)
-                        fs_store.add(stix2.parse(wallet_object))
-                        wallet_objects.append(wallet_object)
-                        processed_wallets.add(addr)
-                stix_objects.extend(wallet_objects)
+        else:
+            wallet_data = get_wallet_data(args.wallet)
+            if args.wallet not in processed_wallets:
+                wallet_object = create_wallet_object(args.wallet)
+                fs_store.add(stix2.parse(wallet_object))
+                stix_objects.append(wallet_object)
+                processed_wallets.add(args.wallet)
+            for tx in wallet_data["txs"]:
+                transaction_object = create_transaction_object(tx)
+                fs_store.add(stix2.parse(transaction_object))
+                stix_objects.append(transaction_object)
+                if not args.transactions_only:
+                    wallets = set(inp["prev_out"]["addr"] for inp in tx["inputs"] if 'addr' in inp["prev_out"]) | set(out["addr"] for out in tx["out"] if 'addr' in out)
+                    wallet_objects = []
+                    for addr in wallets:
+                        if addr not in processed_wallets:
+                            wallet_object = create_wallet_object(addr)
+                            fs_store.add(stix2.parse(wallet_object))
+                            wallet_objects.append(wallet_object)
+                            processed_wallets.add(addr)
+                    stix_objects.extend(wallet_objects)
 
     if stix_objects:
         stix_objects += list(extensions.values())
