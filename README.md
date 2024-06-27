@@ -1,6 +1,12 @@
 # crypto2stix
 
+## Overview
+
 A command line tool that takes crypto transactions and wallets, and turns them into STIX objects. Currently only supports Bitcoin.
+
+## tl;dr
+
+[![crypto2stix](https://img.youtube.com/vi/ott1aIOKbGQ/0.jpg)](https://www.youtube.com/watch?v=ott1aIOKbGQ)
 
 ## Overview
 
