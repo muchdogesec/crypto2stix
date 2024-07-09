@@ -15,8 +15,8 @@ EXTENSION_DEF_IDS = {
     "transaction": "extension-definition--151d042d-4dcf-5e44-843f-1024440318e5"
 }
 EXTENSION_URLS = {
-    "wallet": "https://raw.githubusercontent.com/muchdogesec/stix4doge/main/objects/extension-definition/cryptocurrency-wallet.json",
-    "transaction": "https://raw.githubusercontent.com/muchdogesec/stix4doge/main/objects/extension-definition/cryptocurrency-transaction.json"
+    "wallet": "https://raw.githubusercontent.com/muchdogesec/stix2extensions/main/extension-definitions/scos/cryptocurrency-wallet.json",
+    "transaction": "https://raw.githubusercontent.com/muchdogesec/stix2extensions/main/extension-definitions/scos/cryptocurrency-transaction.json"
 }
 
 def download_extension_definitions():
