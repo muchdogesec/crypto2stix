@@ -1,0 +1,682 @@
+{
+    "type": "bundle",
+    "id": "bundle--a0dc7e31-57e7-5f53-95b4-5c7f9b6c5978",
+    "objects": [
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--bee9a2a2-1dc1-5677-b3c0-4622f023d5a2",
+            "address": "12FA9138gjJ2ujrTipy95oNWjte5qyRzJi",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--c2d4fdef-5c0c-5758-a14c-9508301871da",
+            "address": "12GjhZYrQw6TFvYaqywA6mEuPwhhzDnWT1",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--3b3ef55d-9ad4-5aca-8fe3-2f9c30a1480c",
+            "address": "12kqXK8HLoR5khj5tX54tUzFbLcHEGrpsq",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--78d764ad-5f6f-5080-ad52-001a2f6bd487",
+            "address": "12rSEPuXT3BjYc6irKtvpdeh54pM2Up66m",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--c1a12e9e-b106-584b-97be-de86d9d693e0",
+            "address": "13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--2a3d8943-bcd1-5b0d-adcb-6453212fac53",
+            "address": "13BiNUXTv8a7aisagBuysc9Fsc2ow9Kpqr",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--d53dd66f-cfb9-54c7-bd3c-687a0f6d9b2b",
+            "address": "13LKQ45eZN2sEVpP3Jz3HsfHcKfY2YGJJF",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--e51b6cb3-6417-56a0-8ef3-1177c17fdf88",
+            "address": "13rQPvme2nHPEJXWyjKigD2yMR1kTQhTfb",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--2683df16-6c20-5ec0-910c-5dbb62887198",
+            "address": "13tQfcnmTKTuegW5WGub7eAhjHN1YJ36vH",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--bd535ae4-283a-50d9-8ee6-59d7199a016d",
+            "address": "141Zu4pHzkYZefE2audb1FU1gRkJ1TNKT6",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--a70e2dd8-a3df-520d-89f5-83145e445e71",
+            "address": "142ZNRupsDD3PnCHhMjW6fG1FSFjJgZifa",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--41eace87-fb4b-536f-b034-4f9f8fe31845",
+            "address": "14C6pnkLwvrKS4Bz5iuGwGd1UtcgRoJNQ2",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--bdd7d5bb-53c1-504a-a59a-4a34b5bfe10c",
+            "address": "14D9gZfqGJ32j6Z1j2CJSrPykwKQnmg1Fu",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--86e0591a-9489-5764-887c-6463ab4fcb23",
+            "address": "14szvYSeSYdXDSRrV8A15hycBrQBEWicyG",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--47f2f42e-f8b2-5d95-9a8d-a6fa6effeff4",
+            "address": "15CnsYLBuGPxojUcHHEzk8gSoiKJncGa3J",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--5f4c0294-4301-5f90-abd1-1f3da8f39a35",
+            "address": "17A16QmavnUfCW11DAApiJxp7ARnxN5pGX",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--c52d3d3d-f17d-52a4-8f63-f061ccd48108",
+            "address": "17QjnzB6E4R24jQfybWaNEnn2Dn7hhhn7j",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--59abc913-b03a-59a7-aa3c-3e1a60ae195c",
+            "address": "17WT9QJ4mhFmQjCNh1dzmrVx3B9Yk1jVb7",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--5bbb2efd-1431-560d-a400-d65b46bc2bcd",
+            "address": "17mELa6pAuxhYdW7uman9sUGpxCvfbhVr3",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--4628d850-6e42-5174-9d9b-7199df3b08ae",
+            "address": "18iuwNHPMxP2ktyMhZ5Qc87WkyHt4jQXHL",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--7e61ddca-e67f-5b23-b1d1-c91b4e92190b",
+            "address": "19QQdMY3BhwSv1N8dAfSwuKUXGVXqU2Zhi",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--cd2b26ff-9603-590e-ae06-939c2aa902cc",
+            "address": "19Y7KjbuahzgFn13aXd63N2x1KQ6FQ6hUK",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--96a0b405-a46d-5723-831c-d11c47690cd4",
+            "address": "19iS5MWYPjXLGh95nvr3Fv7NUEj5gyD6Tt",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--5b8f4d77-c2a1-5797-8dc8-6a20b4d7438b",
+            "address": "19moA3zLi8pBGQKUxYC98v3QZUCuiV6Zzn",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--f363d213-7704-5912-8aad-e35adf7bd7ea",
+            "address": "19sHTvBi1CApHSoR7FwPeEsfKxtu1gNMvw",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--65e616a3-150c-5526-87d0-dde91655c784",
+            "address": "19xDdx4VP657K6yHASNU9784seALLVMWcN",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--c284d0c6-a6c8-581e-abe7-658e6eae73a4",
+            "address": "1BDjVqJVN4LM1hYHBDmvWyEXR4BNJM97xW",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--3742cf8e-2bed-595c-81a3-61aba43576ce",
+            "address": "1Bae2KyPHWbbzi5Dd7rkJn6AoBHm1a7puy",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--78b71279-f56d-5b22-8213-83918d1a8238",
+            "address": "1ByeuF9g3LpEnGNEs5nWEropE1qMMaCtPJ",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--e6e7f4b8-9bc4-5477-ad88-ec739da0b7e4",
+            "address": "1Dogw6FAbiJpfau8DeNRYXpHmce9R77bhS",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--db255d5c-f913-5c27-b143-42eab0e07bf8",
+            "address": "1F9rRh3egw4N2E9BMSmWGW47qWP6ei7Ugy",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--8afdf7f6-3e5b-53b3-b937-38867717aba2",
+            "address": "1FS99dQzUoDNadidz1eUTNmsZHp184zvfL",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--9ed98fa4-e87a-591c-8e73-a425ece468ff",
+            "address": "1FVKqRtunvhM4zDn7YtxebiYkUAyVrvk4S",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--cd69b987-0fdd-52a5-9df9-9df191cc5602",
+            "address": "1FcjRQXxGcM1CcmpyJZTKDCzox5DkKThiS",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--30e4de74-220b-5802-bba3-ab22dcc0b335",
+            "address": "1H1JcPA9jCtttGUn1E4MnFqXX979cU2ofL",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--85e8a887-8ad1-5aad-b319-5bf4a84b72b6",
+            "address": "1KKL5zJR5paD85e2UekuV6W7xSyaDfsmLQ",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--af65f8aa-c886-58f0-addf-6e02ae42a3ac",
+            "address": "1KLshjTFybbnJc3JfzbBh2Ew5C21G7bBgn",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--a8c5d332-30ee-5f56-bd6a-e005c9419ad3",
+            "address": "1LiBLu1SpF26Uu8qcAfNq8r7v1GzF1JuB8",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--50f4aeca-0e14-5258-a10c-1e30de11c905",
+            "address": "33xC8TS6tbiS3bDC8bWSJKhmhUeZxBKbTM",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--597a0d70-5caf-565a-ac11-9776c3025bfe",
+            "address": "3D8yyk6GCWUjk6NGhN4TmcmVPX7SFLJQv4",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-wallet",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-wallet--d131a44b-832d-5e60-bd35-8f7ffa8f319d",
+            "address": "3NzEKnB8BG3BpmugBcyobGaHn22s6Aby5S",
+            "extensions": {
+                "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "cryptocurrency-transaction",
+            "spec_version": "2.1",
+            "id": "cryptocurrency-transaction--62ed6399-e4af-5e15-9764-9e519fc5b3f6",
+            "symbol": "BTC",
+            "hash": "3a5395bc3e8584786ad0598db33adda0b991814fd035089d69d7e2bda3272893",
+            "block_id": "466221",
+            "fee": "0.00481282",
+            "execution_time": "2017-05-13T16:58:03Z",
+            "input": [
+                {
+                    "address_ref": "cryptocurrency-wallet--5f4c0294-4301-5f90-abd1-1f3da8f39a35",
+                    "amount": 104.42730936
+                }
+            ],
+            "output": [
+                {
+                    "address_ref": "cryptocurrency-wallet--c1a12e9e-b106-584b-97be-de86d9d693e0",
+                    "amount": 0.001
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--cd69b987-0fdd-52a5-9df9-9df191cc5602",
+                    "amount": 0.00186009
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--5b8f4d77-c2a1-5797-8dc8-6a20b4d7438b",
+                    "amount": 0.00291
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--65e616a3-150c-5526-87d0-dde91655c784",
+                    "amount": 0.00324955
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--e6e7f4b8-9bc4-5477-ad88-ec739da0b7e4",
+                    "amount": 0.00327667
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--5bbb2efd-1431-560d-a400-d65b46bc2bcd",
+                    "amount": 0.0059
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--c52d3d3d-f17d-52a4-8f63-f061ccd48108",
+                    "amount": 0.0071782
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--96a0b405-a46d-5723-831c-d11c47690cd4",
+                    "amount": 0.00747212
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--af65f8aa-c886-58f0-addf-6e02ae42a3ac",
+                    "amount": 0.00911791
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--4628d850-6e42-5174-9d9b-7199df3b08ae",
+                    "amount": 0.00923111
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--78b71279-f56d-5b22-8213-83918d1a8238",
+                    "amount": 0.01007311
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--47f2f42e-f8b2-5d95-9a8d-a6fa6effeff4",
+                    "amount": 0.012077
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--2a3d8943-bcd1-5b0d-adcb-6453212fac53",
+                    "amount": 0.01288722
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--597a0d70-5caf-565a-ac11-9776c3025bfe",
+                    "amount": 0.02071398
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--78d764ad-5f6f-5080-ad52-001a2f6bd487",
+                    "amount": 0.03
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--85e8a887-8ad1-5aad-b319-5bf4a84b72b6",
+                    "amount": 0.03432014
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--86e0591a-9489-5764-887c-6463ab4fcb23",
+                    "amount": 0.038
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--7e61ddca-e67f-5b23-b1d1-c91b4e92190b",
+                    "amount": 0.04255988
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--c284d0c6-a6c8-581e-abe7-658e6eae73a4",
+                    "amount": 0.04984477
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--2683df16-6c20-5ec0-910c-5dbb62887198",
+                    "amount": 0.0499
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--41eace87-fb4b-536f-b034-4f9f8fe31845",
+                    "amount": 0.0513
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--d131a44b-832d-5e60-bd35-8f7ffa8f319d",
+                    "amount": 0.0599
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--bd535ae4-283a-50d9-8ee6-59d7199a016d",
+                    "amount": 0.09087199
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--bee9a2a2-1dc1-5677-b3c0-4622f023d5a2",
+                    "amount": 0.09915629
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--c2d4fdef-5c0c-5758-a14c-9508301871da",
+                    "amount": 0.0999
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--a8c5d332-30ee-5f56-bd6a-e005c9419ad3",
+                    "amount": 0.0999
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--a70e2dd8-a3df-520d-89f5-83145e445e71",
+                    "amount": 0.1
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--50f4aeca-0e14-5258-a10c-1e30de11c905",
+                    "amount": 0.1099
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--f363d213-7704-5912-8aad-e35adf7bd7ea",
+                    "amount": 0.1162995
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--db255d5c-f913-5c27-b143-42eab0e07bf8",
+                    "amount": 0.1619
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--3742cf8e-2bed-595c-81a3-61aba43576ce",
+                    "amount": 0.1659
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--bdd7d5bb-53c1-504a-a59a-4a34b5bfe10c",
+                    "amount": 0.35916001
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--d53dd66f-cfb9-54c7-bd3c-687a0f6d9b2b",
+                    "amount": 0.56541784
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--e51b6cb3-6417-56a0-8ef3-1177c17fdf88",
+                    "amount": 1.09876639
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--9ed98fa4-e87a-591c-8e73-a425ece468ff",
+                    "amount": 1.0999
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--cd2b26ff-9603-590e-ae06-939c2aa902cc",
+                    "amount": 1.1199
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--30e4de74-220b-5802-bba3-ab22dcc0b335",
+                    "amount": 1.56699475
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--59abc913-b03a-59a7-aa3c-3e1a60ae195c",
+                    "amount": 1.8999
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--3b3ef55d-9ad4-5aca-8fe3-2f9c30a1480c",
+                    "amount": 14.2999
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--8afdf7f6-3e5b-53b3-b937-38867717aba2",
+                    "amount": 14.57
+                },
+                {
+                    "address_ref": "cryptocurrency-wallet--5f4c0294-4301-5f90-abd1-1f3da8f39a35",
+                    "amount": 66.33595802
+                }
+            ],
+            "extensions": {
+                "extension-definition--151d042d-4dcf-5e44-843f-1024440318e5": {
+                    "extension_type": "new-sco"
+                }
+            }
+        },
+        {
+            "type": "extension-definition",
+            "spec_version": "2.1",
+            "id": "extension-definition--151d042d-4dcf-5e44-843f-1024440318e5",
+            "created_by_ref": "identity--9779a2db-f98c-5f4b-8d08-8ee04e02dbb5",
+            "created": "2020-01-01T00:00:00.000Z",
+            "modified": "2020-01-01T00:00:00.000Z",
+            "name": "Cryptocurrency Transaction",
+            "description": "This extension creates a new SCO that can be used to represent cryptocurrency transactions.",
+            "schema": "https://raw.githubusercontent.com/muchdogesec/stix2extensions/main/schemas/scos/cryptocurrency-transaction.json",
+            "version": "1.0",
+            "extension_types": [
+                "new-sco"
+            ],
+            "object_marking_refs": [
+                "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+                "marking-definition--60c0f466-511a-5419-9f7e-4814e696da40"
+            ]
+        },
+        {
+            "type": "extension-definition",
+            "spec_version": "2.1",
+            "id": "extension-definition--be78509e-6958-51b1-8b26-d17ee0eba2d7",
+            "created_by_ref": "identity--9779a2db-f98c-5f4b-8d08-8ee04e02dbb5",
+            "created": "2020-01-01T00:00:00.000Z",
+            "modified": "2020-01-01T00:00:00.000Z",
+            "name": "Cryptocurrency Wallet",
+            "description": "This extension creates a new SCO that can be used to represent cryptocurrency wallets.",
+            "schema": "https://raw.githubusercontent.com/muchdogesec/stix2extensions/main/schemas/scos/cryptocurrency-wallet.json",
+            "version": "1.0",
+            "extension_types": [
+                "new-sco"
+            ],
+            "object_marking_refs": [
+                "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487",
+                "marking-definition--60c0f466-511a-5419-9f7e-4814e696da40"
+            ]
+        }
+    ]
+}

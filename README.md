@@ -64,17 +64,25 @@ Passing the `--wallet_only` flag will only generate the wallet object for the wa
 python3 crypto2stix.py --transaction 3a5395bc3e8584786ad0598db33adda0b991814fd035089d69d7e2bda3272893
 ```
 
+See: `demo_data/transaction_example.json`
+
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --transactions_only
 ```
+
+See: `demo_data/wallet_transactions_only_example.json`
 
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --wallet_only
 ```
 
+See: `demo_data/wallet_only_example.json`
+
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
 ```
+
+See: `demo_data/wallet_example.json`
 
 ## Blockchain data
 
