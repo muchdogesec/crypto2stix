@@ -8,6 +8,8 @@ A command line tool that takes crypto transactions and wallets, and turns them i
 
 [![crypto2stix](https://img.youtube.com/vi/ott1aIOKbGQ/0.jpg)](https://www.youtube.com/watch?v=ott1aIOKbGQ)
 
+[Watch the demo](https://www.youtube.com/watch?v=ott1aIOKbGQ).
+
 ## Overview
 
 One of our tools, [txt2stix](https://github.com/muchdogesec/txt2stix/), extracts bitcoin wallets from text.
@@ -57,32 +59,31 @@ python3 crypto2stix.py --wallet HASH --wallet_only
 
 Passing the `--wallet_only` flag will only generate the wallet object for the wallet HASH passed in the CLI.
 
-
 ### Example runs using Wannacry data
 
 ```shell
 python3 crypto2stix.py --transaction 3a5395bc3e8584786ad0598db33adda0b991814fd035089d69d7e2bda3272893
 ```
 
-See: `demo_data/transaction_example.json`
+See: `outputs/transaction_example.json`
 
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --transactions_only
 ```
 
-See: `demo_data/wallet_transactions_only_example.json`
+See: `outputs/wallet_transactions_only_example.json`
 
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn --wallet_only
 ```
 
-See: `demo_data/wallet_only_example.json`
+See: `outputs/wallet_only_example.json`
 
 ```shell
 python3 crypto2stix.py --wallet 115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
 ```
 
-See: `demo_data/wallet_example.json`
+See: `outputs/wallet_example.json`
 
 ## Blockchain data
 
@@ -305,8 +306,6 @@ Now we can model the actual transaction using these objects.
 ```
 
 ### Starting with a wallet
-
-
 
 ```shell
 GET https://blockchain.info/rawaddr/$bitcoin_address
@@ -702,6 +701,10 @@ The important logical difference here is that the same wallet ID could appear mu
 This script creates the STIX objects using the [stix2 Python Lib](https://stix2.readthedocs.io/en/latest/).
 
 It utilises the filesystem store, which saves the output objects into a directory called `stix2_objects`. On each script run this directory is deleted and then recreated with new objects.
+
+The STIX objects are linked together as follows;
+
+https://miro.com/app/board/uXjVKn66-Us=/?share_link_id=806720045192
 
 All the generated objects are placed into a STIX bundle in the `stix2_objects` directory.
 
